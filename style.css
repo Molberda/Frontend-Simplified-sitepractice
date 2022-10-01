@@ -10,6 +10,9 @@ button{
     padding: 8px;
     animation: float 800ms infinite alternate-reverse;
 }
+.lap{
+    animation: float 1000ms infinite alternate-reverse;
+}
 @keyframes float {
     0%{
         transform: translateY(0);

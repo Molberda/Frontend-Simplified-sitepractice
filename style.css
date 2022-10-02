@@ -1,4 +1,6 @@
-
+.lap_father{
+    display: flex; justify-content: end;align-items: center;
+}
 button{
     font-size: 20px;
     padding: 8px;

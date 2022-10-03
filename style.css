@@ -3,11 +3,10 @@
     font-family: "Roboto", sans-serif;
 }
 nav{
-    height: 40px;
+    height: 27px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
     padding-right: 25px;
 }
 .nav-links{
@@ -15,12 +14,12 @@ nav{
     display: flex; justify-content: space-between;align-items: center;
 }
 .navi{
-    width: 33%;   
+    width: 30%;   
 }
 a{
     font-size: 120%;
     color: black;
-    padding: 9px;
+    padding: 7px;
     font-weight: 900;
 }
 .landing{

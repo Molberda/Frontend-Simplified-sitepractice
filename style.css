@@ -28,6 +28,7 @@ a {
   background-color: rgb(231, 209, 250);
   display: flex;
   height: 100vh;
+  justify-content: space-between;
 }
 .landarra {
   display: flex;
@@ -36,7 +37,7 @@ a {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:center;
     margin-left: 25px;
 }
 .landima {
@@ -56,7 +57,7 @@ h1 {
     font-size: 32px;
     font-weight: 600;
 }
-.startb {
+button {
     background-color: rgb(9, 192, 192);
     color: white;
   font-weight: 500;
@@ -66,7 +67,7 @@ h1 {
   height: 55px;
   transition: all 200ms;
 }
-.startb:hover {
+button:hover {
     background-color: rgb(8, 150, 150);
     border: solid white;
 }
@@ -86,10 +87,10 @@ h1 {
     align-items: center;
     justify-content: space-around;
     height: 50vh;
-    padding-bottom: 20px;
 }
 h2 {
     font-size: 50px;
+    margin: 40px 0px 0px ;
 }
 .main-text {
     font-size: 20px;
@@ -123,6 +124,7 @@ h2 {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 #discord{
     background-color: rgb(161, 193, 241);
@@ -131,20 +133,48 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 20px;
 }
 .disarrangement{
     display: flex;
-    align-items: center;
-    height: 50%;
+    align-items: center; justify-content: center;
+    height: 80%;
+    width: 100%;
 }
 .discord-row{
     display: flex;
+    align-items: center;
+    width: 100%;
     max-width: 1200px;
+    height: 100%;
     margin: 0 auto;
 }
 #contact{
     background-color: rgb(245, 182, 198);
-    display: flex;
-    height: 100vh;   
+    display: flex; flex-direction: column; align-items: center;justify-content: space-around;
+    height: 40vh;
+}
+.disimage{
+    width: 100%;   
+}
+.form{
+    display: flex; flex-direction: column; justify-content: space-between;
+    height: 80%;
+}
+form{
+    height: 60%;
+}
+footer{
+    display: flex; flex-direction: column; justify-content: space-around; align-items: center;
+    background-color: rgb(155, 235, 231);
+    height: 25vh;
+}
+.footer-navi{
+    height: 40%;
+}
+.links-footer{
+    font-size: 28px;
+    color: blue;
+}
+.message{
+    display: flex; justify-content: space-around;
 }

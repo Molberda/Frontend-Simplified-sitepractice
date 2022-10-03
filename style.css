@@ -25,4 +25,15 @@ a{
 }
 .landing{
     background-color: peachpuff;
+    height: 100vh;
+}
+.landarra{
+    display: flex;
+}.textla{
+    width: 50%;
+    display: flex; flex-direction: column;
+    justify-content: center;
+}
+.landima{
+    position: ;
 }

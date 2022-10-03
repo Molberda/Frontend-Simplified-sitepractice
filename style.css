@@ -26,6 +26,7 @@ a{
 .landing{
     background-color: peachpuff;
     height: 100vh;
+    display: flex;
 }
 .landarra{
     display: flex;
@@ -35,5 +36,5 @@ a{
     justify-content: center;
 }
 .landima{
-    position: ;
+
 }

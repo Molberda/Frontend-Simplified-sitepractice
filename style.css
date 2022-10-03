@@ -1,18 +1,25 @@
 *{
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 nav{
     height: 40px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    padding-left: 30px;
     padding-right: 25px;
-    padding-left: 25px;
 }
 .nav-links{
-    width: 15%;
+    width: 33%;
     display: flex; justify-content: space-between;align-items: center;
 }
 .navi{
-    width: 28%;   
+    width: 33%;   
+}
+a{
+    font-size: 120%;
+    color: black;
+    padding: 9px;
+    font-weight: 900;
 }

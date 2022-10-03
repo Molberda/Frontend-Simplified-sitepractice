@@ -1,5 +1,18 @@
+*{
+    box-sizing: border-box;
+}
 nav{
+    height: 40px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.nav-links{
+    width: 15%;
+    display: flex; justify-content: space-between;align-items: center;
+}
+.navi{
+    width: 28%;   
 }

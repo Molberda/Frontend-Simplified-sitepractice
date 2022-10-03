@@ -4,28 +4,29 @@
 }
 nav{
     height: 27px;
-    background-color: aquamarine;
+    background-color: rgb(155, 235, 231);
     display: flex;
     justify-content: space-between;
-    padding-right: 25px;
+    padding-right: 15px;
 }
 .nav-links{
-    width: 33%;
+    width: 250px;
     display: flex; justify-content: space-between;align-items: center;
 }
 .navi{
-    width: 30%;   
+    width: 300px;   
 }
 a{
     font-size: 120%;
     color: black;
-    padding: 7px;
+    padding: 10px;
     font-weight: 900;
 }
 .landing{
-    background-color: peachpuff;
-    height: 100vh;
+    background-color: rgb(231, 209, 250);
     display: flex;
+    height: 100vh;
+    max-height: 700px;
 }
 .landarra{
     display: flex;
@@ -33,7 +34,34 @@ a{
     width: 50%;
     display: flex; flex-direction: column;
     justify-content: center;
+    margin-left: 25px;
 }
 .landima{
-
+    width: 100%;
+}
+.lapfix{
+width: 50%;
+display: flex;
+align-items: center;
+margin-right: 0px;
+}
+h1{
+    font-size: 60px;
+}
+.ltext{
+    font-size: 32px;
+    font-weight: 600;
+}
+.startb{
+    background-color: rgb(9, 192, 192);
+    color: white;
+    font-weight: 500;
+    font-size: 32px;
+    border: 0px;
+    width: 175px;
+    transition: all 200ms;
+}
+.startb:hover{
+    background-color: rgb(8, 150, 150);
+    border: solid white;
 }

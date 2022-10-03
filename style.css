@@ -66,6 +66,8 @@ button {
   width: 175px;
   height: 55px;
   transition: all 200ms;
+  margin-top: 8px;
+  cursor: pointer;
 }
 button:hover {
     background-color: rgb(8, 150, 150);
@@ -176,5 +178,8 @@ footer{
     color: blue;
 }
 .message{
-    display: flex; justify-content: space-around;
+    display: flex; justify-content: space-around; flex-direction: column;
+}
+.email{
+    display: flex; justify-content: space-around; flex-direction: column;
 }
